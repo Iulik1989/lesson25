@@ -60,7 +60,7 @@ const renderItems = (list) => {
     })
 }
 
-fetch('https://jsonplaceholder.typicode.com/usssers')
+fetch('https://jsonplaceholder.typicode.com/users')
     .then((res) => {
         if (res.status !== 200) {
             throw Error(res.status);
